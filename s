@@ -12,7 +12,6 @@ Duration = 3;
 
 getgenv().Prediction = 0.17
 getgenv().AimPart = "HumanoidRootPart"  
-getgenv().Key = "q" 
 getgenv().Key = "c" 
 getgenv().AutoPrediction = true 
  
