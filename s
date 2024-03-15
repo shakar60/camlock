@@ -6,13 +6,14 @@ Support: Mobile/Pc
 
 game.StarterGui:SetCore("SendNotification", {
 Title = "camlock loaded"; 
-Text = "use q tool or the ui to camlock on players"; 
+Text = "use q or c tool or the ui to camlock on players"; 
 Duration = 3; 
 })
 
 getgenv().Prediction = 0.17
 getgenv().AimPart = "HumanoidRootPart"  
 getgenv().Key = "q" 
-getgenv().AutoPrediction = false 
+getgenv().Key = "c" 
+getgenv().AutoPrediction = true 
  
 loadstring(game:HttpGet('https://raw.githubusercontent.com/elxocasXD/Trip-Hub/main/Scripts/Cam%20Lock.lua'))()
