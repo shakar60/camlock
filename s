@@ -6,7 +6,7 @@ Support: Mobile/Pc
 
 game.StarterGui:SetCore("SendNotification", {
 Title = "camlock loaded"; 
-Text = "use q or c tool or the ui to camlock on players"; 
+Text = "use c tool or the ui to camlock on players"; 
 Duration = 3; 
 })
 
